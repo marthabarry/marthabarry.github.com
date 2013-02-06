@@ -1,0 +1,321 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+
+
+#title{
+	font-family:helvetica;
+	font-size:2em;
+	padding:20px;
+	color:hotpink;
+	}
+
+#chair{
+		position:absolute;
+		top:70px;
+		left:90px;
+		background-color:black;
+		width:70px;
+		height:150px;
+		border-radius:7px;
+		}
+		
+#chair:after{
+		content:"";
+		position:absolute;
+		top:70px;
+		left:0px;
+		background-color:black;
+		width:190px;
+		height:120px;
+		border-radius:10px;
+		}
+		
+#chair-legs{
+		position:absolute;
+		top:255px;
+		left:105px;
+		background-color:black;
+		width:15px;
+		height:30px;
+		}
+		
+#chair-legs:after{
+		content:"";
+		position:absolute;
+		top:0px;
+		left:130px;
+		background-color:black;
+		width:15px;
+		height:30px;
+		}
+		
+#pillow{
+	position:absolute;
+	top: 70px;
+	left:160px;
+	background-color:black;
+	width:40px;
+	height:100px;
+	border-radius:40px;
+	}
+	
+#pillow:after{
+	content:"";
+	position:absolute;
+	top: 120px;
+	left:85px;
+	background-color:black;
+	width:40px;
+	height:60px;
+	border-radius:15px;
+	}
+		
+#sofa{
+	position:absolute;
+	top:184px;
+	left:500px;
+	background-color:black;
+	width:175px;
+	height:80px;
+	border-radius:10px;
+	}
+	
+#sofa:after{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:177px;
+	background-color:black;
+	width:175px;
+	height:80px;
+	border-radius:10px;
+	}
+	
+	
+#sofa-pillows{
+		position:absolute;
+		top:73px;
+		left:500px;
+		background-color:black;
+		width:175px;
+		height:110px;
+		border-radius:10px;
+		}
+		
+#sofa-pillows:after{
+		content:"";
+		position:absolute;
+		top:0px;
+		left:177px;
+		background-color:black;
+		width:175px;
+		height:110px;
+		border-radius:10px;
+		}
+		
+#sofa-arms{
+		position:absolute;
+		top:130px;
+		left:440px;
+		background-color:black;
+		width:80px;
+		height:134px;
+		border-radius:10px;
+		}
+		
+#sofa-arms:after{
+		content:"";
+		position:absolute;
+		top:0px;
+		left:395px;
+		background-color:black;
+		width:80px;
+		height:134px;
+		border-radius:10px;
+		}
+
+#sofa-legs{
+		position:absolute;
+		top:255px;
+		left:470px;
+		background-color:black;
+		width:15px;
+		height:30px;
+		}
+		
+#sofa-legs:after{
+		content:"";
+		position:absolute;
+		top:0px;
+		left:390px;
+		background-color:black;
+		width:15px;
+		height:30px;
+		}
+		
+#tv{
+	position:absolute;
+	top:220px;
+	left:1050px;
+	background-color:black;
+	width:200px;
+	height:20px;
+	}
+	
+#tv:after{
+	content:"";
+	position:absolute;
+	top:-135px;
+	left:25px;
+	background-color:black;
+	width:150px;
+	height:150px;
+	}
+	
+#tv-top{
+	position:absolute;
+	top:65px;
+	left:1122px;
+	background-color:black;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+}
+	
+#tv-top:after{
+	content:"";
+	position:absolute;
+	top:38px;
+	left:-30px;
+	background-color:white;
+	width:115px;
+	height:110px;
+}
+		
+#tv-legs{
+	position:absolute;
+	top:235px;
+	left:1100px;
+	background-color:black;
+	width:20px;
+	height:55px;
+	}
+	
+#tv-legs:after{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:80px;
+	background-color:black;
+	width:20px;
+	height:55px;
+	}
+	
+#tv-antenna{
+		position:absolute;
+		top:30px;
+		left:1120px;
+		background-color:black;
+		width:3px;
+		height:45px;
+		-webkit-transform: rotate(-45deg);
+		}
+		
+#tv-antenna2{
+		position:absolute;
+		top:30px;
+		left:1170px;
+		background-color:black;
+		width:3px;
+		height:45px;
+		-webkit-transform: rotate(45deg);
+		}
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
