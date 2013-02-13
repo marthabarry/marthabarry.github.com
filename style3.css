@@ -143,6 +143,12 @@ html[xmlns] .clearfix { display: block; }
 	height:60px;
 	border-radius:15px;
 	}
+	
+@-webkit-keyframes bounce2 {
+   0% { -webkit-transform: translate(0,0); }
+   50%  { -webkit-transform: translate(0px,5px); }
+   100% {  -webkit-transform: translate(0px, 0); }
+}
 		
 #sofa{
 	position:absolute;
@@ -152,6 +158,7 @@ html[xmlns] .clearfix { display: block; }
 	width:175px;
 	height:80px;
 	border-radius:10px;
+	-webkit-animation: bounce2 1s linear infinite alternate;
 	}
 	
 #sofa:after{
@@ -165,6 +172,12 @@ html[xmlns] .clearfix { display: block; }
 	border-radius:10px;
 	}
 	
+@-webkit-keyframes bounce {
+   0% { -webkit-transform: translate(0,0); }
+   50%  { -webkit-transform: translate(0px,-5px); }
+   100% {  -webkit-transform: translate(0px, 0); }
+}
+
 	
 #sofa-pillows{
 		position:absolute;
@@ -174,6 +187,7 @@ html[xmlns] .clearfix { display: block; }
 		width:175px;
 		height:110px;
 		border-radius:10px;
+		-webkit-animation: bounce 1s linear infinite alternate;
 		}
 		
 #sofa-pillows:after{
@@ -226,7 +240,8 @@ html[xmlns] .clearfix { display: block; }
 		width:15px;
 		height:30px;
 		}
-		
+
+
 #tv{
 	position:absolute;
 	top:220px;
@@ -255,16 +270,24 @@ html[xmlns] .clearfix { display: block; }
 	height:50px;
 	border-radius:25px;
 }
+
+@-webkit-keyframes tvcolor {
+   from {background:white; }
+   to  {background:pink; }
+}	
+		
 	
-#tv-top:after{
-	content:"";
+#tv-top-screen{
 	position:absolute;
-	top:38px;
-	left:-30px;
+	top:103px;
+	left:1093px;
 	background-color:white;
 	width:115px;
 	height:110px;
+	z-index:1;
+	-webkit-animation: tvcolor 1s infinite alternate;
 }
+
 		
 #tv-legs{
 	position:absolute;
