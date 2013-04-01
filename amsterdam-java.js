@@ -1,11 +1,15 @@
-<script>
-$(function() {
-    function eventCallback() {
-      $("#box").fadeIn();
-      // $(this).fadeOut();
-    }
+$( document ).ready(function() {
+$("#pinpoint").click(function () {
+  $(".box").show("slow");
+});
 
-    $("#box").on("click",eventCallback);
+$("#hidr").click(function () {
+  $("div").hide(1000);
+});
+
+
+
+
+
 
 });
-</script>
