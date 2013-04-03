@@ -79,6 +79,14 @@ body{ margin:0 auto;
 		background-color:grey;
 		}
 		
+#background-map{
+				position:relative;
+				top:100px;
+				width:1024px;
+				height:768px;
+				background-image:url("images/amsterdam-map.png");
+				}
+		
 header{
 		position:absolute;
 		background-color:grey;
@@ -94,6 +102,8 @@ h1{
 	font-family:helveticaneue;
 	font-size:2.5em;
 	letter-spacing:.3px;
+		font-weight:semibold;
+
 	}
 	
 #second-head{
@@ -140,6 +150,15 @@ li:hover{
 			background-color:lightgrey;
 			}
 			
+#about-me{
+			display:none;
+			position:absolute;
+			top:100px;
+			width:1024px;
+			height:500px;
+			background-color:lightgrey;
+			}
+			
 #about-trip{
 			position:absolute;
 			top:80px;
@@ -148,7 +167,15 @@ li:hover{
 			height:337.5px;
 			}
 			
-#text{
+#about-me-image{
+			position:absolute;
+			top:80px;
+			left:60px;
+			width:225px;
+			height:300px;
+			}
+			
+.text{
 		position:absolute;
 		top:130px;
 		left:350px;
@@ -185,7 +212,7 @@ h2{
 #pinpoint-5{
 		position:absolute;
 		top:400px;
-		left:400px;
+		left:370px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -215,7 +242,7 @@ h2{
 		display:none;
 		position:absolute;
         top:188px;
-        left:401px;
+        left:370px;
         width:360px;
         height:240px;
         background-color:grey;
@@ -251,8 +278,8 @@ h2{
 	
 #pinpoint-1{
 		position:absolute;
-		top:500px;
-		left:470px;
+		top:430px;
+		left:310px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -281,8 +308,8 @@ h2{
 #box-1{   
 		display:none;
 		position:absolute;
-        top:290px;
-        left:470px;
+        top:220px;
+        left:310px;
         width:360px;
         height:240px;
         background-color:grey;
@@ -318,8 +345,8 @@ h2{
 	
 #pinpoint-2{
 		position:absolute;
-		top:370px;
-		left:530px;
+		top:330px;
+		left:400px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -348,8 +375,8 @@ h2{
 #box-2{   
 		display:none;
 		position:absolute;
-        top:165px;
-        left:530px;
+        top:125px;
+        left:400px;
         width:360px;
         height:240px;
         background-color:grey;
@@ -383,8 +410,8 @@ h2{
 	
 #pinpoint-3{
 		position:absolute;
-		top:600px;
-		left:530px;
+		top:580px;
+		left:500px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -413,8 +440,8 @@ h2{
 #box-3{   
 		display:none;
 		position:absolute;
-        top:250px;
-        left:530px;
+        top:230px;
+        left:500px;
         width:280px;
         height:380px;
         background-color:grey;
@@ -448,8 +475,8 @@ h2{
 	
 #pinpoint-4{
 		position:absolute;
-		top:520px;
-		left:300px;
+		top:450px;
+		left:240px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -478,8 +505,8 @@ h2{
 #box-4{   
 		display:none;
 		position:absolute;
-        top:170px;
-        left:300px;
+        top:100px;
+        left:240px;
         width:280px;
         height:380px;
         background-color:grey;
@@ -512,8 +539,8 @@ h2{
 	
 #pinpoint-6{
 		position:absolute;
-		top:530px;
-		left:650px;
+		top:550px;
+		left:550px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -542,8 +569,8 @@ h2{
 #box-6{   
 		display:none;
 		position:absolute;
-        top:180px;
-        left:650px;
+        top:200px;
+        left:550px;
         width:280px;
         height:380px;
         background-color:grey;
@@ -577,8 +604,8 @@ h2{
 	
 #pinpoint-7{
 		position:absolute;
-		top:350px;
-		left:700px;
+		top:240px;
+		left:500px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -607,8 +634,8 @@ h2{
 #box-7{   
 		display:none;
 		position:absolute;
-        top:145px;
-        left:700px;
+        top:35px;
+        left:500px;
   		 width:360px;
         height:240px;
         background-color:grey;
@@ -644,7 +671,7 @@ h2{
 #pinpoint-8{
 		position:absolute;
 		top:600px;
-		left:330px;
+		left:240px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -674,7 +701,7 @@ h2{
 		display:none;
 		position:absolute;
         top:255px;
-        left:330px;
+        left:240px;
         width:280px;
         height:380px;
         background-color:grey;
@@ -711,8 +738,8 @@ h2{
 	
 #pinpoint-9{
 		position:absolute;
-		top:570px;
-		left:380px;
+		top:550px;
+		left:270px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -741,8 +768,8 @@ h2{
 #box-9{   
 		display:none;
 		position:absolute;
-        top:220px;
-        left:380px;
+        top:200px;
+        left:270px;
         width:280px;
         height:380px;
         background-color:grey;
@@ -780,7 +807,7 @@ h2{
 #pinpoint-10{
 		position:absolute;
 		top:615px;
-		left:280px;
+		left:200px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -810,7 +837,7 @@ h2{
 		display:none;
 		position:absolute;
         top:410px;
-        left:280px;
+        left:200px;
   		 width:360px;
         height:240px;
         background-color:grey;
@@ -845,7 +872,7 @@ h2{
 	
 #pinpoint-11{
 		position:absolute;
-		top:480px;
+		top:460px;
 		left:420px;
 		width:50px;
 		height:50px;
@@ -875,7 +902,7 @@ h2{
 #box-11{   
 		display:none;
 		position:absolute;
-        top:170px;
+        top:150px;
         left:420px;
         width:280px;
         height:345px;
@@ -909,8 +936,8 @@ h2{
 	
 #pinpoint-13{
 		position:absolute;
-		top:615px;
-		left:360px;
+		top:635px;
+		left:280px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -939,8 +966,8 @@ h2{
 #box-13{   
 		display:none;
 		position:absolute;
-        top:370px;
-        left:360px;
+        top:400px;
+        left:280px;
   		 width:360px;
         height:270px;
         background-color:grey;
@@ -976,8 +1003,8 @@ h2{
 	
 #pinpoint-15{
 		position:absolute;
-		top:630px;
-		left:420px;
+		top:570px;
+		left:300px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -1006,8 +1033,8 @@ h2{
 #box-15{   
 		display:none;
 		position:absolute;
-        top:390px;
-        left:420px;
+        top:330px;
+        left:300px;
   		 width:360px;
         height:270px;
         background-color:grey;
@@ -1041,8 +1068,8 @@ h2{
 	
 #pinpoint-16{
 		position:absolute;
-		top:370px;
-		left:590px;
+		top:260px;
+		left:540px;
 		width:50px;
 		height:50px;
 		background-color:grey;
@@ -1071,8 +1098,8 @@ h2{
 #box-16{   
 		display:none;
 		position:absolute;
-        top:130px;
-        left:590px;
+        top:20px;
+        left:540px;
   		 width:360px;
         height:270px;
         background-color:grey;

@@ -10,6 +10,16 @@ $("#about-box").slideUp("slow");
 
 
 
+$("#me").click(function () {
+if ($("#about-me").is(":hidden")) {
+$("#about-me").slideDown("slow");
+} else {
+$("#about-me").slideUp("slow");
+}
+});
+
+
+
 
 
 
