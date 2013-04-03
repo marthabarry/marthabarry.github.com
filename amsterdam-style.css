@@ -85,7 +85,6 @@ body{ margin:0 auto;
 				width:1024px;
 				height:768px;
 				background-image:url("images/amsterdam-map.png");
-				z-index:-1;
 				}
 		
 header{
@@ -96,6 +95,7 @@ header{
 -webkit-box-shadow: 0px 4px 18px rgba(50, 50, 50, 0.69);
 -moz-box-shadow:    0px 4px 18px rgba(50, 50, 50, 0.69);
 box-shadow:         0px 4px 18px rgba(50, 50, 50, 0.69);
+z-index:1;
 		}
 		
 h1{
