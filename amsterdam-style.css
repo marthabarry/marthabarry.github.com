@@ -97,19 +97,18 @@ header{
 h1{
 	position:absolute;
 	top:20px;
-	left:40px;
+	left:20px;
 	color:white;
 	font-family:helveticaneue;
-	font-size:2.5em;
-	letter-spacing:.3px;
-		font-weight:semibold;
-
+	font-weight:bold;
+	font-size:2.75em;
+	letter-spacing:.5px;
 	}
 	
 #second-head{
 			position:absolute;
-			top:32px;
-			left:280px;
+			top:35px;
+			left:300px;
 			color:white;
 			font-family:helveticaneue;
 			font-size:1.25em;
@@ -1124,6 +1123,10 @@ h2{
 			}
 	
 /* END PINOPOINT */
+
+
+
+
 		
 		
 		
