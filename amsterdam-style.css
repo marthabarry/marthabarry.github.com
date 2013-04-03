@@ -122,7 +122,67 @@ li{
 	margin:0px 10px 0px 10px;
 	}
 	
-#pinpoint{
+	
+li:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+
+#about-box{
+			display:none;
+			position:absolute;
+			top:100px;
+			width:1024px;
+			height:500px;
+			background-color:lightgrey;
+			}
+			
+#about-trip{
+			position:absolute;
+			top:80px;
+			left:60px;
+			width:225px;
+			height:337.5px;
+			}
+			
+#text{
+		position:absolute;
+		top:130px;
+		left:350px;
+		width:600px;
+		color:grey;
+		font-family:helveticaneue;
+		font-size:1em;
+		letter-spacing:.4px;
+		line-height:25px;
+		}
+		
+h2{
+	position:absolute;
+	top:80px;
+	left:350px;
+	width:600px;
+	font-family:helveticaneue;
+	font-weight:bold;
+	color:grey;
+	font-size:2em;
+	letter-spacing:1.5px;
+		}
+	
+	
+	
+	
+	
+	
+	
+
+/* PINPOINT 5 BREAKDOWN */
+
+	
+#pinpoint-5{
 		position:absolute;
 		top:400px;
 		left:400px;
@@ -132,7 +192,7 @@ li{
 		border-radius:25px;
 		}
 		
-#pinpoint-bottom{        
+.pinpoint-bottom{        
 		position:absolute;
         top:40px;
         left:5px;
@@ -143,7 +203,7 @@ li{
         border-top:30px solid grey;
 }
 
-#pinpoint:hover{
+#pinpoint-5:hover{
 		transform: scale(1.10,1.10);
 		-ms-transform: scale(1.10,1.10); /* IE 9 */
 		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
@@ -151,7 +211,7 @@ li{
 		-moz-transform: scale(1.10,1.10); /* Firefox */
 		}
 		
-.box{   
+#box-5{   
 		display:none;
 		position:absolute;
         top:188px;
@@ -160,36 +220,883 @@ li{
         height:240px;
         background-color:grey;
         border-radius:10px;
+        z-index:1;
+
 }
 
 .close{
 		position:absolute;
+		width:20px;
+		height:20px;
 		top:10px;
         left:325px;
 		}
 		
 #amsta-5{
 			position:absolute;
-			top:10px;
+			top:15px;
 			left:15px;
 			width:300px;
 			height:200px;
 			}
 	
+/* END PINOPOINT */
 
 
+
+
+
+/* PINPOINT 1 BREAKDOWN */
 
 	
+#pinpoint-1{
+		position:absolute;
+		top:500px;
+		left:470px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-1:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-1{   
+		display:none;
+		position:absolute;
+        top:290px;
+        left:470px;
+        width:360px;
+        height:240px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+
+}
+
+.close{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:325px;
+		}
+		
+#amsta-1{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:300px;
+			height:200px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+
+
+/* PINPOINT 2 BREAKDOWN */
+
+	
+#pinpoint-2{
+		position:absolute;
+		top:370px;
+		left:530px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-2:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-2{   
+		display:none;
+		position:absolute;
+        top:165px;
+        left:530px;
+        width:360px;
+        height:240px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+
+}
+
+.close{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:325px;
+		}
+		
+#amsta-2{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:300px;
+			height:200px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+/* PINPOINT 3 BREAKDOWN */
+
+	
+#pinpoint-3{
+		position:absolute;
+		top:600px;
+		left:530px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-3:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-3{   
+		display:none;
+		position:absolute;
+        top:250px;
+        left:530px;
+        width:280px;
+        height:380px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+
+}
+
+.close-vertical{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:250px;
+		}
+		
+#amsta-3{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:225px;
+			height:337.5px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+/* PINPOINT 4 BREAKDOWN */
+
+	
+#pinpoint-4{
+		position:absolute;
+		top:520px;
+		left:300px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-4:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-4{   
+		display:none;
+		position:absolute;
+        top:170px;
+        left:300px;
+        width:280px;
+        height:380px;
+        background-color:grey;
+        border-radius:10px;
+         z-index:1;
+
+}
+
+.close-vertical{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:250px;
+		}
+		
+#amsta-4{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:225px;
+			height:337.5px;
+			}
+	
+/* END PINOPOINT */
+
+
+/* PINPOINT 6 BREAKDOWN */
+
+	
+#pinpoint-6{
+		position:absolute;
+		top:530px;
+		left:650px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-6:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-6{   
+		display:none;
+		position:absolute;
+        top:180px;
+        left:650px;
+        width:280px;
+        height:380px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+
+}
+
+.close-vertical{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:250px;
+		}
+		
+#amsta-6{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:225px;
+			height:337.5px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+/* PINPOINT 7 BREAKDOWN */
+
+	
+#pinpoint-7{
+		position:absolute;
+		top:350px;
+		left:700px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-7:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-7{   
+		display:none;
+		position:absolute;
+        top:145px;
+        left:700px;
+  		 width:360px;
+        height:240px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+}
+
+.close{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:325px;
+		}
+		
+#amsta-7{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:300px;
+			height:200px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+
+
+/* PINPOINT 8 BREAKDOWN */
+
+	
+#pinpoint-8{
+		position:absolute;
+		top:600px;
+		left:330px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-8:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-8{   
+		display:none;
+		position:absolute;
+        top:255px;
+        left:330px;
+        width:280px;
+        height:380px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+
+}
+
+.close-vertical{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:250px;
+		}
+		
+#amsta-8{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:225px;
+			height:337.5px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+
+
+
+/* PINPOINT 9 BREAKDOWN */
+
+	
+#pinpoint-9{
+		position:absolute;
+		top:570px;
+		left:380px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-9:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-9{   
+		display:none;
+		position:absolute;
+        top:220px;
+        left:380px;
+        width:280px;
+        height:380px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+
+}
+
+.close-vertical{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:250px;
+		}
+		
+#amsta-9{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:225px;
+			height:337.5px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+
+
+
+/* PINPOINT 10 BREAKDOWN */
+
+	
+#pinpoint-10{
+		position:absolute;
+		top:615px;
+		left:280px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-10:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-10{   
+		display:none;
+		position:absolute;
+        top:410px;
+        left:280px;
+  		 width:360px;
+        height:240px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+}
+
+.close{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:325px;
+		}
+		
+#amsta-10{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:300px;
+			height:200px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+
+
+/* PINPOINT 11 BREAKDOWN */
+
+	
+#pinpoint-11{
+		position:absolute;
+		top:480px;
+		left:420px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-11:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-11{   
+		display:none;
+		position:absolute;
+        top:170px;
+        left:420px;
+        width:280px;
+        height:345px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+
+}
+
+.close-vertical{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:250px;
+		}
+		
+#amsta-11{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:225px;
+			height:301px;
+			}
+	
+/* END PINOPOINT */
+		
+
+/* PINPOINT 13 BREAKDOWN */
+
+	
+#pinpoint-13{
+		position:absolute;
+		top:615px;
+		left:360px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-13:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-13{   
+		display:none;
+		position:absolute;
+        top:370px;
+        left:360px;
+  		 width:360px;
+        height:270px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+}
+
+.close{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:325px;
+		}
+		
+#amsta-13{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:300px;
+			height:224px;
+			}
+	
+/* END PINOPOINT */
+
+
+
+
+
+
+/* PINPOINT 15 BREAKDOWN */
+
+	
+#pinpoint-15{
+		position:absolute;
+		top:630px;
+		left:420px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
+		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-15:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
+		
+#box-15{   
+		display:none;
+		position:absolute;
+        top:390px;
+        left:420px;
+  		 width:360px;
+        height:270px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+}
+
+.close{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:325px;
+		}
+		
+#amsta-15{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:300px;
+			height:224px;
+			}
+	
+/* END PINOPOINT */
+
 		
 		
+
+/* PINPOINT 16 BREAKDOWN */
+
+	
+#pinpoint-16{
+		position:absolute;
+		top:370px;
+		left:590px;
+		width:50px;
+		height:50px;
+		background-color:grey;
+		border-radius:25px;
+		}
 		
+.pinpoint-bottom{        
+		position:absolute;
+        top:40px;
+        left:5px;
+        width:0;
+        height:0;
+        border-left:20px solid transparent;
+        border-right:20px solid transparent;
+        border-top:30px solid grey;
+}
+
+#pinpoint-16:hover{
+		transform: scale(1.10,1.10);
+		-ms-transform: scale(1.10,1.10); /* IE 9 */
+		-webkit-transform: scale(1.10,1.10); /* Safari and Chrome */
+		-o-transform: scale(1.10,1.10); /* Opera */
+		-moz-transform: scale(1.10,1.10); /* Firefox */
+		}
 		
+#box-16{   
+		display:none;
+		position:absolute;
+        top:130px;
+        left:590px;
+  		 width:360px;
+        height:270px;
+        background-color:grey;
+        border-radius:10px;
+        z-index:1;
+}
+
+.close{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:10px;
+        left:325px;
+		}
 		
-		
-		
-		
-		
-		
+#amsta-16{
+			position:absolute;
+			top:15px;
+			left:15px;
+			width:300px;
+			height:224px;
+			}
+	
+/* END PINOPOINT */
 		
 		
 		
