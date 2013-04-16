@@ -75,16 +75,25 @@ html[xmlns] .clearfix { display: block; }
 
 .head{
 	position:relative;
-	margin:20px; 0px 20px 20px;
-	font-family:futura;
-	font-size:2em;
+margin: 75px 20px;
+font-family:futura;
+	font-size:2.5em;
 	}
 	
+#key{
+	position:fixed;
+	top:10px;
+	width:1100px;
+	height:40px;
+	background-color:grey;
+	opacity:0.5;
+	z-index:1;
+	}
 	
-.key1{
-	position:relative;
-	margin:20px; 0px 10px 0px;
-	Background-color:grey;
+#grey{
+	position:absolute;
+	right:300px;
+	top:5px;
 	font-family:futura;
 	font-size:1em;
 	width:160px;
@@ -92,10 +101,10 @@ html[xmlns] .clearfix { display: block; }
 
 }
 
-.key2{
-	position:relative;
-	margin:20px; 0px 0px 0px;
-	Background-color:lightblue;
+#blue{
+	position:absolute;
+	right:100px;
+	top:5px;
 	font-family:futura;
 	font-size:1em;
 	width:180px;

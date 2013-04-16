@@ -4,13 +4,7 @@ $(function() {
 
 $("<p>").addClass("head").text("Boston Crimes by Neighborhood")
 		.appendTo("body");
-		
 
-$("<p>").addClass("key1").text("Grey: Total Crimes")
-		.appendTo("body");
-		
-$("<p>").addClass("key2").text("Blue: Domestic Crimes")
-		.appendTo("body");
 
 
 
@@ -36,8 +30,8 @@ $(function() {
     var fraction2 = domestic / maxDomestic;
 
       
-    var incidentsWidth = fraction * 600;
-    var domesticWidth = fraction2 * 600;
+    var incidentsWidth = fraction * 1000;
+    var domesticWidth = fraction2 * 500;
 
       
       var row = $("<div>").addClass("row");
