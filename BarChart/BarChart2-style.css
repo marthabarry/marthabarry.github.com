@@ -1,0 +1,143 @@
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+.head{
+	position:relative;
+	margin:20px; 0px 20px 20px;
+	font-family:futura;
+	font-size:2em;
+	}
+	
+	
+.key1{
+	position:relative;
+	margin:20px; 0px 10px 0px;
+	Background-color:grey;
+	font-family:futura;
+	font-size:1em;
+	width:160px;
+	padding:5px;
+
+}
+
+.key2{
+	position:relative;
+	margin:20px; 0px 0px 0px;
+	Background-color:lightblue;
+	font-family:futura;
+	font-size:1em;
+	width:180px;
+	padding:5px;
+
+}
+	
+.row{
+position: relative;
+margin: 10px 0px;
+	}
+
+.neighborhood{
+position: absolute;
+top: 4px;
+left: 0px;
+width: 360px;
+text-align: right;
+	font-family:futura;
+	font-size:.75em;
+
+	}
+
+.incidents{
+margin-left: 380px;
+height: 20px;
+background-color: grey;
+	font-family:futura;
+	font-size:.75em;
+
+		}
+		
+.domestic{
+margin-left: 380px;
+height: 20px;
+background-color: lightblue;
+	font-family:futura;
+	font-size:.75em;
+
+		}
+
+
+
+
+
