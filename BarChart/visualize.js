@@ -24,14 +24,14 @@ $(function() {
 
       
     var maxIncidents = 10651;
-     var maxDomestic = 2841;
+     var maxDomestic = 10651;
       
      var fraction = incidents / maxIncidents;
     var fraction2 = domestic / maxDomestic;
 
       
     var incidentsWidth = fraction * 1000;
-    var domesticWidth = fraction2 * 500;
+    var domesticWidth = fraction2 * 1000;
 
       
       var row = $("<div>").addClass("row");
