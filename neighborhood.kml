@@ -258,7 +258,7 @@ If YOU FIND AN ERROR, go to http://bostonneighborhoodmap.com and click on the Co
     </PolyStyle>
   </Style>
   <Placemark>
-    <name>Beacon</name>
+    <name>Beacon Hill</name>
     <description><![CDATA[]]></description>
     <styleUrl>#style4</styleUrl>
     <Polygon>

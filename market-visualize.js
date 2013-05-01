@@ -41,7 +41,7 @@ google.maps.event.addListener(marker, 'click', function() {
       };
       var myMap = new google.maps.Map($("#map-canvas")[0],mapOptions);
       
-var georssLayer = new google.maps.KmlLayer('http://marthabarry.github.com/neighborhood.kml');
+var georssLayer = new google.maps.KmlLayer('http://marthabarry.github.com/neighborhood.kml?ielvnrifei');
 georssLayer.setMap(myMap);
 
   
