@@ -287,9 +287,10 @@ font-size:.75em;
 p{
 position:relative;
 text-align:center;
+margin:9px 0px 0px 0px;
 font-family:helvetica;
 color:rgb(140,198,63);
-font-size:.7em;
+font-size:.9em;
 }
 
 h2{
