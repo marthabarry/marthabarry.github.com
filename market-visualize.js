@@ -12,10 +12,8 @@
     map: myMap
 })
 var contentString = '<div id="content">'+
-    '<div id="siteNotice">'+
-    '<div id="bodyContent">'+ markets.Name + markets.Location + markets.TimeDay +
-    '</div>'+
-    '</div>';
+    '<div id="siteNotice">'+ markets.Name +'</div>'+ '<div id="address">' + markets.Location + '</div>'+
+    '<div id="bodyContent">'+markets.TimeDay + '</div>';
 
 var infowindow = new google.maps.InfoWindow({
     content: contentString

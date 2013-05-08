@@ -95,9 +95,27 @@ position:relative;
 margin:5px 0px 0px 25px;
 }
 
+#siteNotice{
+font-family:helvetica;
+font-weight:bold;
+font-size:1.5em;
+}
+
+.box{
+width:400px;
+height:300px;
+}
+
+#address{
+font-family:helvetica;
+margin:5px 0px 0px 0px;
+font-size:1em;
+}
+
 #bodyContent{
 font-family:helvetica;
-font-size:1em;
+margin:5px 0px 0px 0px;
+font-size:.75em;
 }
 
 #cat-1{
