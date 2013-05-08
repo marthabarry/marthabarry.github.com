@@ -80,7 +80,7 @@ georssLayer.setMap(myMap);
 
 
 	$("#sixty").click(function(){
-  	$("#sixtyhover").show(); $("georssLayer").hide();
+  	$("#sixtyhover").show(); $().hide();
 	  });
 	$("#sixtyhover").click(function(){
   	$("#sixtyhover").hide();
