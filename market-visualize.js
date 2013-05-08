@@ -57,7 +57,7 @@ google.maps.event.addListener(marker, 'click', function() {
 	
 	
 	$("#sixty").click(function(){
-  	$("#sixtyhover").show(); $("#style4").hide();
+  	$("#sixtyhover").show(); $("#style17").hide();
 	  });
 	$("#sixtyhover").click(function(){
   	$("#sixtyhover").hide();
