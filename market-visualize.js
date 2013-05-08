@@ -30,13 +30,16 @@ position: new google.maps.LatLng(lat,lon),
 google.maps.event.addListener(marker, 'click', function() {
   infowindow.open(myMap,marker);
 });
-
 }
+
+var lessTen = new google.maps.KmlLayer('https://maps.google.com/maps/ms?authuser=0&vps=1&ie=UTF8&msa=0&output=kml&msid=205158860800887463998.0004dc2b33d0b9d8e34de');
+
+
 	$("#less-10").click(function(){
-  	$("#less-10-hover").show();
+  	$("#less-10-hover").show(); lessTen.setMap(myMap);
 	  });
 	$("#less-10-hover").click(function(){
-  	$("#less-10-hover").hide();
+  	$("#less-10-hover").hide(); lessTen.setMap(null);
 	});
 
       var mapOptions = {
@@ -45,45 +48,54 @@ google.maps.event.addListener(marker, 'click', function() {
         mapTypeId: google.maps.MapTypeId.ROADMAP // ROADMAP, SATELLITE, HYBRID, TERRAIN
       };
       var myMap = new google.maps.Map($("#map-canvas")[0],mapOptions);
+      
+
+var hundMap = new google.maps.KmlLayer('https://maps.google.com/maps/ms?authuser=0&ie=UTF8&msa=0&output=kml&msid=205158860800887463998.0004dc37903ff6db186b2');
+
 	
 	$("#hund").click(function(){
-  	$("#hundhover").show();
+  	$("#hundhover").show(); hundMap.setMap(myMap);
 	  });
 	$("#hundhover").click(function(){
-  	$("#hundhover").hide();
+  	$("#hundhover").hide(); hundMap.setMap(null);
 	});
 	
 
 	
-	
+var seventyFive = new google.maps.KmlLayer('https://maps.google.com/maps/ms?authuser=0&ie=UTF8&msa=0&output=kml&msid=205158860800887463998.0004dc37629d9e1f362f8');
 
 	
 	
 	$("#seventy-five").click(function(){
-  	$("#seventy-five-hover").show();
+  	$("#seventy-five-hover").show();seventyFive.setMap(myMap); 
 	  });
 	$("#seventy-five-hover").click(function(){
-  	$("#seventy-five-hover").hide();
+  	$("#seventy-five-hover").hide(); seventyFive.setMap(null);
 	});
 
+
+var twoHund = new google.maps.KmlLayer('https://maps.google.com/maps/ms?authuser=0&ie=UTF8&msa=0&output=kml&msid=205158860800887463998.0004dc37792ba239a995d');
+
+
+
 	$("#two-hund").click(function(){
-  	$("#two-hund-hover").show();
+  	$("#two-hund-hover").show();twoHund.setMap(myMap); 
 	  });
 	$("#two-hund-hover").click(function(){
-  	$("#two-hund-hover").hide();
+  	$("#two-hund-hover").hide();twoHund.setMap(null);
 	});
 	
 
-      
-var georssLayer = new google.maps.KmlLayer('https://maps.google.com/maps/ms?authuser=0&vps=1&ie=UTF8&msa=0&output=kml&msid=205158860800887463998.0004dc2b33d0b9d8e34de');
-georssLayer.setMap(myMap);
+
+var sixtyMap = new google.maps.KmlLayer('https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=205158860800887463998.0004dc370ad2a6b023807');
+
 
 
 	$("#sixty").click(function(){
-  	$("#sixtyhover").show(); $().hide();
+  	$("#sixtyhover").show(); sixtyMap.setMap(myMap);
 	  });
 	$("#sixtyhover").click(function(){
-  	$("#sixtyhover").hide();
+  	$("#sixtyhover").hide();sixtyMap.setMap(null);
 	});
   
     console.log(data);
