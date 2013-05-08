@@ -19,6 +19,8 @@ var infowindow = new google.maps.InfoWindow({
     content: contentString
 });
 
+
+
 var marker = new google.maps.Marker({
 position: new google.maps.LatLng(lat,lon),
     map: myMap,
