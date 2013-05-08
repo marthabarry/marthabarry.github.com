@@ -56,12 +56,7 @@ google.maps.event.addListener(marker, 'click', function() {
 
 	
 	
-	$("#sixty").click(function(){
-  	$("#sixtyhover").show(); $("#style17").hide();
-	  });
-	$("#sixtyhover").click(function(){
-  	$("#sixtyhover").hide();
-	});
+
 	
 	
 	$("#seventy-five").click(function(){
@@ -83,6 +78,13 @@ google.maps.event.addListener(marker, 'click', function() {
 var georssLayer = new google.maps.KmlLayer('https://maps.google.com/maps/ms?authuser=0&vps=1&ie=UTF8&msa=0&output=kml&msid=205158860800887463998.0004dc2b33d0b9d8e34de');
 georssLayer.setMap(myMap);
 
+
+	$("#sixty").click(function(){
+  	$("#sixtyhover").show(); $("georssLayer").hide();
+	  });
+	$("#sixtyhover").click(function(){
+  	$("#sixtyhover").hide();
+	});
   
     console.log(data);
     var i = 0;
